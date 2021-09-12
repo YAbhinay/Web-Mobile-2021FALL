@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 30px;
+    background-color: salmon;
+}
+
+header> h1
+{
+    color: darkblue;
+    text-align: center;
+    font-family: "Cooper Black";
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.scoreboard
+{
+    border: 3px solid white;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    color: midnightblue;
+    padding: 5px 5px;
+    font-family: Copperplate ;
+    position: relative;
+}
+
+.badge{
+    background: indianred;
+    color: white;
+    font-size: initial;
+    padding: 5px 5px;
+}
+
+.result{
+    color: midnightblue;
+    text-align: center;
+    font-size: 40px;
+    font-family: Copperplate ;
+}
+
+.choices{
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.choice{
+    display: inline-block;
+    margin: 0px 60px;
+    padding: 0px;
+}
+
+.choices>.choice > img {
+    height: 100px;
+    width: 100px;
+}
+.choice:hover{
+    cursor: pointer;
+    background: firebrick;
+}
+body> p {
+    text-align: center;
+    font-size: 25px;
+    color: midnightblue;
+    font-family: "Cooper Black";
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
