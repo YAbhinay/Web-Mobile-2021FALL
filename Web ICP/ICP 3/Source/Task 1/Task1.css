@@ -1,23 +1,23 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 header {
     padding: 30px;
-    background-color: salmon;
+    background-color: Red;
 }
 
 header> h1
 {
-    color: darkblue;
+    color: black;
     text-align: center;
-    font-family: "Cooper Black";
+
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
 }
 
 .scoreboard
@@ -28,7 +28,6 @@ body {
     margin: 20px auto;
     color: midnightblue;
     padding: 5px 5px;
-    font-family: Copperplate ;
     position: relative;
 }
 
@@ -43,18 +42,16 @@ body {
     color: midnightblue;
     text-align: center;
     font-size: 40px;
-    font-family: Copperplate ;
 }
 
 .choices{
-    margin: 50px 0px;
+    margin: 50px ;
     text-align: center;
 }
 
 .choice{
     display: inline-block;
-    margin: 0px 60px;
-    padding: 0px;
+    margin: 60px;
 }
 
 .choices>.choice > img {
@@ -69,7 +66,6 @@ body> p {
     text-align: center;
     font-size: 25px;
     color: midnightblue;
-    font-family: "Cooper Black";
 }
 .center {
     display: block;
