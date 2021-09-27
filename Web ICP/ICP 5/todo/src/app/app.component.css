@@ -1,0 +1,61 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom, #6a85b6 5%, #bac8e0 90%);
+  height: 800px;
+
+}
+form{
+  max-width: 50em;
+  margin: 3em auto;
+  position: relative;
+  background: lightsteelblue;
+  padding: 2em 3em;
+  overflow: hidden;
+}
+form h1{
+  font-family: "Baskerville Old Face";
+  color: darkred;
+}
+form input[type=text]::placeholder{
+  font-family: cursive;
+  color:#666;
+}
+form .data{
+  margin-top: 1em;
+}
+form .data li{
+  background: #fff;
+  border-left: 4px solid #2c1277;
+  padding: 1em;
+  margin: 1em auto;
+  color: #666;
+  font-family: cursive;
+}
+form .data li i{
+  float: right;
+  color: darkred;
+  cursor: pointer;
+}
+form .input-group-text{
+  background: lavender;
+
+  width: 5px;
+  height: 5px;
+  padding: 23px;
+  color: red;
+  position: absolute;
+  right: 13px;
+
+  cursor: pointer;
+}
+form .input-group-text i{
+  font-size: 2em;
+}
+form .form-control{
+  height: 3em;
+  font-family: cursive;
+}
+form .form-control:focus{
+  box-shadow: 0;
+}
