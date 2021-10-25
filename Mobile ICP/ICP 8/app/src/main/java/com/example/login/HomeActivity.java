@@ -22,7 +22,7 @@ public class HomeActivity extends AppCompatActivity {
         });
     }
 
-    public void myLogout()//when user clicks logout button
+    public void myLogout()//user clicks logout button
     {
         Intent redirect = new Intent(HomeActivity.this, MainActivity.class);
         startActivity(redirect);//redirect to login page

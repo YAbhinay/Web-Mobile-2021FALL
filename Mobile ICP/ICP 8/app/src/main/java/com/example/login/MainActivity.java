@@ -33,21 +33,21 @@ public class MainActivity extends AppCompatActivity {
         String username = usernameCtrl.getText().toString();
         String password = passwordCtrl.getText().toString();
 
-        if(!username.isEmpty() && !password.isEmpty())// if username and password fields are not empty
+        if(!username.isEmpty() && !password.isEmpty())// if username and password fields are entered
         {
-            if(username.equals("Admin")&&password.equals("Admin"))//if username and password matches the given credentials
+            if(username.equals("Admin")&&password.equals("Admin"))//if username and password matched with user credentials
             {
                 Intent redirect = new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(redirect);// redirect to home page
             }
             else
             {
-                Info.setText("Invalid Login Credentials");//displays when user enter invalid credentials
+                Info.setText("Invalid Login Credentials");//if invalid credentials
             }
         }
         else
         {
-            Info.setText("Please Enter Username and Password");//displays when user clicks login button with blank fields
+            Info.setText("Please Enter Username and Password");//pop up user clicks login button with blank fields
         }
     }
 }
